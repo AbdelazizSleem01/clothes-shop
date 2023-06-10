@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="icons8-clothes-16.png">
+    <link rel="stylesheet" href="Shop.css">
+    <title>SHOP.Abdeaziz Sleem</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <input type="text" placeholder="Search">
+           <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="nav-middle">
+           <a href="#"> <p>ABDELAZIZ SLEEM</p></a>
+        </div>
+        <div class="nav-right">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-heart "></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+           <a href="#"><p>2</p></a> 
+        </div>
+        <div class="line">
+        </div>
+        <div class="nav-bottom">
+            <pre class="bottom">
+              <a href="index.html"> <span class="home">HOME  <i class="fa-solid fa-angle-down fa-xs"></i>    </span></a>
+              <a href="about.html">  <span class="about">ABOUT  <i class="fa-solid fa-angle-down fa-xs"></i>     </span> </a>
+               <a href="Shop.html"> <span class="Shop">SHOP   </span></a>
+               <a href="#"><span>  CATALOGUE  </span> </a>
+              <a href="#">  <span>NEW ARRIVALA  </span></a>
+               <a href="#"> <span>CONTACT        </span> </a>
+            </pre>
+        </div>
+        <div class="simi-nav">
+            <pre>
+                <span>Home /</span>  Shop
+            </pre>
+        </div>
+    </nav>
+    <section class="sec1">
+        <div class="select1">
+            <select  name="Latest" id="Latest">
+                <option  class="opt" value="Latest"> Latest  &#9660; <p> </p></option>
+                <option  value="Men">Men</option>
+                <option  value="Women">Women</option>
+                <option  value="Children">Children</option>
+
+            </select>
+        </div>
+        
+   
+        <div>
+            <div class="dropdown2">
+                <button onclick="myFunction()" class="dropbtn2">Reference &#9660; </button>
+                <div id="myDropdown2" class="dropdown-content2">
+                   <a href="#home">Relevance</a>
+                   <a href="#about">Name,A to Z</a>
+                   <a href="#contact">Name,A to Z</a>
+                   <a href="#contact">Price,low to high</a>
+                   <a href="#contact">Price,low to high</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              document.getElementById("myDropdown2").classList.toggle("show");
+            }
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn2')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+                var i;
+                for (i = 0; i < dropdowns2.length; i++) {
+                  var openDropdown2= dropdowns2[i];
+                  if (openDropdown2.classList.contains('show')) {
+                    openDropdown2.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
+
+    </section>
+    <section class="sec4">
+        <div class="border_bottom">
+        </div>
+        <div class="CATEGORIES">
+            <p>CATEGORIES</p>
+            <pre>
+               <span>    Men</span>           (2,220)
+               <span>    Women</span>         (2,550)
+               <span>    Chidren</span>       (2.124)
+            </pre>
+        </div>
+        <div class="FILTER">
+            <h4>FILTER BY PRICE</h4>
+            
+            <span class="mosher">
+                <p></p>
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+            </span>
+
+            <p class="aomlat">$75-$300</p>
+            <h5>SIZE</h5>
+            <span class="size-small"><pre>Small (2,319)</pre> </span>
+            <span class="size-Medium"><pre>Medium(1,519)</pre> </span>
+            <span class="size-Large"><pre>Large (1,316)</pre> </span>
+
+            <h3>COLOR</h3>
+            <span class="red-color"><pre>Red (2,319)</pre> </span>
+            <span class="Green-color"><pre>Green(1,519)</pre> </span>
+            <span class="Blue-color"><pre>Blue (1,316)</pre> </span>
+            <span class="Purple-color"><pre>Purple (1,316)</pre> </span>
+        </div>
+
+
+        <div class="para1">
+            <p>Shop All</p>
+        </div>
+        <div class="continer1">
+            <a href="shop-single.html"><img  src="cloth_1.jpg" alt=""></a>
+            <h3>Tank Top</h3>
+            <p>Finding Perfect t-shirt</p>
+            <span>$50</span>
+        </div>
+        
+        <div class="continer2">
+            <a href="shop-single.html"><img  src="shoe.png" alt=""></a>
+            <h3>corater</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+
+        <div class="continer3">
+            <a href="shop-single.html"><img  src="cloth_2.jpg" alt=""></a>
+            <h3>Polo Shirt</h3>
+            <p>Finding Perfect t-shirt</p>
+            <span>$50</span>
+        </div>
+        <div class="continer4">
+            <a href="shop-single.html"><img  src="cloth_1.jpg" alt=""></a>
+            <h3>Tank Top</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer5">
+            <a href="shop-single.html"><img  src="cloth_3.jpg" alt=""></a>
+            <h3>T-Shirt Mockup</h3>
+            <p>Finding Perfect t-shirt</p>
+            <span>$50</span>
+        </div>
+       
+        <div class="continer6">
+            <a href="shop-single.html"><img  src="shoe.png" alt=""></a>
+            <h3>corater</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer7">
+            <a href="shop-single.html"><img  src="cloth_2.jpg" alt=""></a>
+            <h3>corater</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer8">
+            <a href="shop-single.html"><img  src="shoe.png" alt=""></a>
+            <h3>corater</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer9">
+            <a href="shop-single.html"><img  src="cloth_1.jpg" alt=""></a>
+            <h3>Tank Top</h3>
+            <p>Finding Perfect t-shirt</p>
+            <span>$50</span>
+        </div>
+        <div class="continer10">
+            <a href="shop-single.html"><img  src="cloth_3.jpg" alt=""></a>
+            <h3>T-Shirt Mockup</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer11">
+            <a href="shop-single.html"><img  src="cloth_1.jpg" alt=""></a>
+            <h3>Tank Top</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="continer12">
+            <a href="shop-single.html"><img  src="shoe.png" alt=""></a>
+            <h3>corater</h3>
+            <p>Finding Perfect products</p>
+            <span>$50</span>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="p">
+            <p>Caregories</p>
+        </div>
+        <div class="line">
+        </div>
+        <div class="image-box">
+
+            <div class="img1"></div>
+            <p class="para1">collections</p>
+            <h3 class="h3-1">Women</h3>
+        </div>
+        <div class="image-box" >
+            <div class="img2"></div>
+            <p class="para2">collections</p>
+            <h3 class="h3-2">Children</h3>
+        </div>
+        <div class="image-box">
+            <div class="img3"></div>
+            <p class="para3">collections</p>
+            <h3 class="h3-3">Men</h3>
+        </div>
+        
+    </section>
+    <section class="sec6">
+        <div class="line-footer">
+        </div>
+        <div class="foot-left">
+
+            <h1>Navigations</h1>
+            <a href="#"><p>Sell online </p></a>     
+            <a href="#"><p>Features </p></a>   
+            <a href="#"><p>Shopping cart </p></a>           
+            <a href="#"><p>Store builder</p></a>
+        </div>    
+            <div class="foot-left2">
+                <a href="#"><p> Mobile commerce </p></a>
+                <a href="#"><p>Dropshopping</p></a>
+                <a href="#"><p>Website development  </p></a>
+            </div>
+             
+            <div class="foot-left3">
+                <a href="#"><p> Point of sale</p></a>
+                <a href="#"><p>Hardware</p></a>
+                <a href="#"><p>Software</p></a>
+            </div>
+             
+        
+        <div class="promo">
+            <h1>Promo</h1>
+            <a href=""><img src="hero_1.jpg" alt=""></a>
+            <p>Finding Your Perfect Shoes</p>
+            <pre>Promot from jnuary 15 - 31/2023</pre>
+        </div>
+        <div class="contact">
+            <h1>Contact Info</h1>
+            <div class="map">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Monshat Benha, Benha, Elqaluopia <br> Egypt</p>
+            </div>
+            <div class="tele">
+                <i class="fa-solid fa-phone"></i>
+                <p>+20 01007488071</p>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>zezofalcon01@gmail.com</p>
+            </div>
+        </div>
+        <div class="sub">
+            <h1>Supscribe</h1>
+            <input type="text" placeholder="Email">
+            <button>SEND</button>
+        </div>
+        <div class="cpotright">
+            <p>
+                Copyright <i class="fa-regular fa-copyright fa-xs"></i>
+                2023 All rights resrved | This template is made with  
+                <i class="fa-solid fa-heart"></i> by <span><a href="https://zezoapp.vercel.app"> ABDELAZIZ SLEEM</a></span>
+            </p>
+        </div>
+      
+    
+    </section>
+</body>
+</html>

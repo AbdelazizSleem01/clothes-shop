@@ -1,0 +1,749 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-left{
+   display: flex;
+   margin: 55px;
+}
+.nav-left:hover{
+  padding-right: 240px;
+  transition: all .5s ease;
+}
+
+.nav-left input{
+    position: relative;
+    width: 140px;
+    height:35px;
+    padding-left: 5.5%;
+    border: 0px solid ;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: bolder;
+    background-color:rgba(225, 224, 224, 0.249);
+
+}
+.nav-left i{
+    position: absolute;
+    left: 80px;
+    top: 65px;
+    color: darkgray;
+    font-size: 15px;
+}
+
+/* nav-middle */
+
+.nav-middle p{
+    position: absolute;
+    top: 55px;
+    left: 42%;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px black;
+    color: rgb(103, 101, 101);
+}
+.nav-middle p:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+/* nav-right */
+
+.nav-right {
+    text-decoration: none;
+    position: absolute;
+    top: 58px;
+    right: 100px;
+    letter-spacing: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.nav-right a{
+    color: darkgray;
+}
+.nav-right p{
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    width: 18px;
+    height: 20px;
+    padding: 3px 4.5px;
+    border-radius: 52%;
+    background-color: blueviolet;
+    color: white;
+}
+.nav-right i:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+    color: black;
+}
+
+.line{
+    border-bottom: 1.5px solid rgba(188, 183, 183, 0.689);
+    max-width: 100%;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+/* nav-bottom */
+
+
+.nav-bottom .bottom{
+    display: flex;
+    max-width: 350px;
+    padding-left: 280px;
+    line-height: 70px;
+}
+.nav-bottom a{
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 16px;
+    font-weight: 630;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    margin-left: 25%;
+}
+.nav-bottom span:hover{
+    color: rgb(150, 12, 174);
+
+}
+.nav-bottom span.Shop{
+    color: rgb(150, 12, 174);
+}
+
+.nav-bar .simi-nav{
+    position: relative;
+    max-width: 100%;
+    height: 50px ;
+    background-color: rgba(236, 236, 236, 0.587);
+    text-decoration: none;
+    
+}
+.nav-bar .simi-nav pre{
+    position: absolute;
+    top: 10px;
+    right: 88%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 630;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar .simi-nav pre span{
+    color: rgb(150, 12, 174);
+    font-size: 16px;
+    font-weight: 630;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ---- */
+
+/* table */
+.sec1 .table{
+    position: relative;
+    left: 90px;
+    top: 80px;
+    width: 85%;
+    height: 400px;
+    text-align: center;
+    border-bottom: none;
+}
+.sec1 .table, th, td{
+    border: 2px solid rgb(230, 227, 227);
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1 .table, th{
+    height: 100px;
+}
+.sec1 .table .counter-all{
+    width: 210px;
+}
+
+/* product */
+
+.sec1 .table .product {
+    width: 230px;
+}
+
+
+/* PRICE */
+
+.sec1 .table .price{
+    color: rgb(90, 23, 153);
+    width: 130px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* img-table */
+.sec1 .table img{
+    width: 150px;
+    margin: 20px;
+}
+.sec1 .table .img{
+    width: 150px;
+}
+
+/* counter */
+.sec1 .counter{
+    position: absolute;
+    left: 56%;
+    display: flex;
+    text-align: center;
+}
+.sec1 .counter .border {
+    border: 1px solid rgb(160, 158, 158);
+    position: relative;
+    bottom: 15px;
+    
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;  
+    padding-top: 5px;
+}
+
+.sec1 .counter  a{
+    text-decoration: none;
+    color: black;
+    z-index:+1;
+}
+
+.sec1 .counter input{
+    border:1px solid rgba(108, 21, 194, 0.712);
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px 0px 0px 8px;
+}
+.sec1 .counter input:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.sec1 .counter .plus{
+    border:1px solid rgba(102, 51, 153, 0.726);
+    color: rgb(34, 33, 33);
+    font-size: 20px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+/* letter-x input  */
+.sec1 .table .letter-x input{
+    width: 50px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.sec1 .table .letter-Xall{
+    width: 180px;
+}
+.sec1 .table .letter-x input:hover{
+    box-shadow: 1px 2px 5px rgb(70, 68, 68);
+}
+
+/* sec2 */
+
+.sec2{
+    position: relative;
+}
+.sec2 .add-cart{
+    position: absolute;
+    top: 10pc;
+    left: 6%;
+}
+.sec2 .add-cart a input {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(122, 43, 226);
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 250px;
+    height: 42px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    z-index: +1;
+}
+.sec2 .add-cart a input:hover{
+    box-shadow: 2px 5px 5px  black;
+    background-color: rgb(83, 35, 128);
+    transform: translateY(-2px);
+    transition: all .5s ease-in;
+}
+
+/* ---------- */
+
+.sec2 .add-cart2{
+    position: absolute;
+    top: 10pc;
+    left: 30%;
+    border: 2px solid rgb(122, 43, 226);
+    border-radius: 5px;
+}
+.sec2 .add-cart2 a input {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(122, 43, 226);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 250px;
+    height: 42px;
+    /* box-shadow: 2px 2px 5px black; */
+    
+}
+.sec2 .add-cart2 a input:hover{
+    
+    background-color: rgb(120, 18, 189);
+    color: white;
+}
+
+.sec2 .TOTALS{
+    position: relative;
+    top:10pc;
+    
+}
+.sec2 .TOTALS h2{
+    position: absolute;
+    left: 83%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2 .TOTALS span{
+    border-bottom: 2px solid rgb(207, 207, 207);
+    width: 310px;
+    position: absolute;
+    left: 70%;
+    top: 40px;
+  
+}
+
+.sec2 .TOTALS p{
+    color: rgb(134, 110, 139);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 90px;
+    padding-left: 5px;
+    
+}
+.sec2 .TOTALS .p1{
+    display: flex;
+    position: absolute;
+    left: 62%;
+
+}
+.sec2 .TOTALS p{
+    color: rgb(134, 110, 139);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 90px;
+    padding-left: 5px;
+    
+}
+
+.sec2 .TOTALS .p2{
+    display: flex;
+    position: absolute;
+    left: 62%;
+    top: 45px;
+}
+
+.sec2 .TOTALS .p2 p{
+   padding: 10px;
+}
+
+/* --left-- */
+
+.sec2 .TOTALS .left h2{
+    position: absolute;
+    left: 6%;
+    top: 100px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2 .TOTALS .left p{
+    position: absolute;
+    left:-15px;
+    top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2 .TOTALS .left input{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(99, 96, 96);
+    border: rgb(184, 183, 183) 2px solid; 
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    height: 42px;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: absolute;
+    top: 185px;
+    left: 6%;
+}
+/* ---------- */
+.sec2 .TOTALS .left .APPLY{
+    position: absolute;
+    left: 35%;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(122, 43, 226);
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 42px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    z-index: +1;
+}
+
+.sec2 .TOTALS .left .APPLY:hover{
+    box-shadow: 2px 5px 5px  black;
+    background-color: rgb(83, 35, 128);
+    transform: translateY(-2px);
+    transition: all .5s ease-in;
+}
+
+/*________________  */
+
+.sec2 .TOTALS .left .APPLY2{
+    position: absolute;
+    left: 70%;
+    top: 240px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(122, 43, 226);
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    z-index: +1;
+}
+
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.sec2 .TOTALS .left .APPLY2:hover{
+    border: none;
+    box-shadow: 2px 5px 5px  black;
+    background-color: rgb(83, 35, 128);
+    transform: translateY(-2px);
+    transition: all .5s ease-in;
+}
+
+/* footer */
+
+
+.sec6{
+    position: relative;
+    top: 34pc;
+    height: 500px;
+}
+.sec6 .line-footer{
+    border-bottom: 2px solid rgb(231, 231, 231);
+    max-width: 100%;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+
+}
+.sec6 .foot-left3{
+    position: absolute;
+    top: 70px;
+    left: 430px;
+    line-height: 40px;
+    
+}
+
+.sec6 .foot-left3 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sec6 .foot-left3 p{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec6 .foot-left3 p:hover{
+    color: blueviolet;
+}
+
+.sec6 .foot-left2{
+    position: absolute;
+    top: 60px;
+    left: 230px;
+    line-height: 40px;
+    
+}
+
+.sec6 .foot-left2 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sec6 .foot-left2 p{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec6 .foot-left2 p:hover{
+    color: blueviolet;
+}
+
+.sec6 .foot-left{
+    display: block;
+    position: absolute;
+    left: 80px;
+    padding: 10px;
+    line-height: 60px;
+    
+}
+.sec6 .foot-left h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+.sec6 .foot-left a{
+  
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sec6 .foot-left p{
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec6 .foot-left p:hover{
+    color: blueviolet;
+}
+/* __________________________ */
+
+.sec6 .promo h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+.sec6 .promo img {
+    width: 250px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+}
+.sec6 .promo p {
+    font-size: 16.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(110, 9, 205);
+    position: absolute;
+    left: 50%;
+    top: 200px;
+}
+.sec6 .promo pre{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(132, 121, 143);
+    position: absolute;
+    left: 50%;
+    top: 225px;
+}
+
+/* contact */
+
+.contact{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    position: absolute;
+    left: 75%;
+    top: 10px;
+}
+.contact .map{
+  display: flex;
+}
+.contact .map i{
+    font-size: 20px;
+    color: blueviolet;
+    position: absolute ;
+    top: 60px;
+}
+.contact .map p{
+    color: rgb(97, 94, 94);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    text-align: center;
+}
+/* ------------- */
+.contact .tele{
+    
+    display: flex;
+    margin-top: 30px;
+}
+.contact .tele i{
+    font-size: 20px;
+    color: blueviolet;
+}
+.contact .tele p{
+    color: rgb(97, 94, 94);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+/* ------------------- */
+
+.contact .email{
+    display: flex;
+    margin-top: 35px;
+}
+.contact .email i{
+    font-size: 20px;
+    color: rgb(98, 21, 171);
+}
+.contact .email p{
+    color: rgb(97, 94, 94);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+/* ---------- */
+
+.sec6 .sub{
+    position: absolute;
+    top:240px ;
+    right: 60px;
+}
+.sec6 .sub h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+.sec6 .sub input{
+    width: 260px;
+    height: 50px;
+    border: 2px solid rgb(196, 193, 193);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    position: relative;
+}
+
+.sec6 .sub button{
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 5px;
+    background-color: rgb(140, 68, 208);
+    color: white;
+    width: 80px;
+    height:40px;
+    border-radius: 5px;
+    border: 0px solid ;
+    outline: none;
+    position: absolute; 
+    right: 4px;
+    top: 55px;
+}
+.sec6 .sub button:hover{
+    box-shadow:1px 1px 5px black;
+    transform: scale(1..9);
+    transition: all .2s ease;
+}
+/* ----- */
+.cpotright{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(94, 90, 90);
+    position: absolute;
+    bottom: 60px;
+    left: 25.5%;
+}
+.cpotright span a{
+    text-decoration: none;
+    color: rgb(117, 47, 183);
+    font-weight: bold;
+
+}
